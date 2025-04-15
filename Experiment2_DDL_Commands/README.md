@@ -110,27 +110,33 @@ CREATE TABLE Table_Name (
 -- Paste your SQL code below for Question 1
 ```
 
-**Outout 1**
+**Output:**
 
-![Output](output.png)
+![Output1](output.png)
 
 **Q2**
 ---
 -- Paste Question 2 here
+
 ```sql
 -- Paste your SQL code below for Question 2
 ```
-**Outout 2**
-![Output](output.png)
 
-**Q3**
+**Output:**
+
+![Output2](output.png)
+
+**Question 3**
 ---
 -- Paste Question 3 here
+
 ```sql
 -- Paste your SQL code below for Question 3
 ```
-**Outout 3**
-![Output](output.png)
+
+**Output:**
+
+![Output3](output.png)
 
 ## RESULT
 Thus, the SQL queries to implement different types of constraints and DDL commands have been executed successfully.
