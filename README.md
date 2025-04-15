@@ -1,8 +1,15 @@
 # DBMS Laboratory Manual Submission
 
-## 📅 Semester: Jan–May 2024  
-## 🎓 Course: Database Management Systems  
-## 🧑‍🏫 Instructor: Your Name  
+## 🎓 Course: 19CS404 Database Management System and its Applications  
+## 🧑‍🏫 Instructor: Ms. G Abinaya 
+
+### Course Outcome
+At the end of this course, the learner can able to
+CO1 Identify an entity and discover its relationship using ER diagram. Understand
+CO2 Develop a Relational Database from ER model Apply
+CO3 Develop an application with SQL and programming language using database connectivity. Create
+CO4 Examine the data storage method and query optimization Analyze
+CO5 Explore the Advanced Database Techniques inreal world application Create
 
 ### 📝 Instructions for Students
 
