@@ -102,5 +102,14 @@ CREATE TABLE Table_Name (
   col_name3 data_type DEFAULT 'default_value'
 );
 ```
+**Question 1**
+-- Copy paste the Question 1
+
+```sql
+-- paste the query
+```
+**Outout**
+-- Output Screenshot
+
 ## RESULT
 Thus, the SQL queries to implement different types of constraints and DDL commands have been executed successfully.
