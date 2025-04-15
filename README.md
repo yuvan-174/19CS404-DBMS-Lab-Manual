@@ -4,12 +4,7 @@
 ## 🧑‍🏫 Instructor: Ms. G Abinaya 
 
 ### Course Outcome
-At the end of this course, the learner can able to
-CO1 Identify an entity and discover its relationship using ER diagram. Understand
-CO2 Develop a Relational Database from ER model Apply
-CO3 Develop an application with SQL and programming language using database connectivity. Create
-CO4 Examine the data storage method and query optimization Analyze
-CO5 Explore the Advanced Database Techniques inreal world application Create
+![image](https://github.com/user-attachments/assets/7e6f9751-b530-4526-9a3d-8e322e3b2e6d)
 
 ### 📝 Instructions for Students
 
