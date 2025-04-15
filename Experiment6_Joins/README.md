@@ -20,6 +20,7 @@ ON table1.column = table2.column;
 
 ### 2. LEFT JOIN
 Returns all records from the left table, and matched records from the right.
+
 **Syntax:**
 
 ```sql
