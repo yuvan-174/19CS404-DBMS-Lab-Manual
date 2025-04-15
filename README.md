@@ -9,12 +9,18 @@
 
 1. Fork this repository to your GitHub profile.
 2. For each experiment:
+   SQL queries based on questions generated randomly from Moodle.
    - Complete the question on Moodle.
    - Add the question as text in `question_generated_by_moodle.txt`.
    - Add your answer in `answer.sql`.
-   - Include output screenshot or results.
+   - Save output as a screenshot and paste it into `output.txt`.
 3. Commit and push your changes.
 4. Submit your repo link via Moodle or to the instructor.
+
+## 📁 Folder Contents:
+- `question_generated_by_moodle.txt` – Paste your Moodle question here.
+- `answer.sql` – Write your SQL query here.
+- `output.txt` – Save your output here.
 
 ### ✅ Experiments List
 
