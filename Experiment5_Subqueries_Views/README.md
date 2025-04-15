@@ -12,11 +12,11 @@ A subquery is a query inside another SQL query and is embedded in:
 - FROM clause
 
 **Types:**
-- **Single-row subquery**
+- **Single-row subquery**:
   Sub queries can also return more than one value. Such results should be made use along with the operators in and any.
-- **Multiple-row subquery**
+- **Multiple-row subquery**:
   Here more than one subquery is used. These multiple sub queries are combined by means of ‘and’ & ‘or’ keywords.
-- **Correlated subquery**
+- **Correlated subquery**:
   A subquery is evaluated once for the entire parent statement whereas a correlated Sub query is evaluated once per row processed by the parent statement.
 
 **Example:**
