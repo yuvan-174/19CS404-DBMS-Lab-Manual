@@ -103,13 +103,15 @@ CREATE TABLE Table_Name (
 );
 ```
 **Question 1**
-
--- Copy paste the Question 1
+---
+-- Paste Question 1 here
 
 ```sql
 -- paste the query
 ```
+
 **Outout**
+
 ![Output](output.png)
 
 ## RESULT
