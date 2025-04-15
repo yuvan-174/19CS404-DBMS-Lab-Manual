@@ -5,6 +5,8 @@ University / Hospital (choose one)
 
 ## ER Diagram:
 ![ER Diagram](er_diagram.png)
+![image](https://github.com/user-attachments/assets/dde8e2a5-650e-4c33-b5ce-6d8939a7aa43)
+
 
 ## Entities and Attributes:
 - Entity1: Attributes
