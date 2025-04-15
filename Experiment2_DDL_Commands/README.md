@@ -103,13 +103,14 @@ CREATE TABLE Table_Name (
 );
 ```
 **Question 1**
+
 -- Copy paste the Question 1
 
 ```sql
 -- paste the query
 ```
 **Outout**
--- Output Screenshot
+![Output](output.png)
 
 ## RESULT
 Thus, the SQL queries to implement different types of constraints and DDL commands have been executed successfully.
