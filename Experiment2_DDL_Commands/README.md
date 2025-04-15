@@ -102,15 +102,27 @@ CREATE TABLE Table_Name (
   col_name3 data_type DEFAULT 'default_value'
 );
 ```
-**Question 1**
+**Query 1**
 ---
 -- Paste Question 1 here
 
 ```sql
--- paste the query
+-- Paste your SQL code below for Question 1
 ```
 
-**Outout**
+**Outout 1**
+
+![Output](output.png)
+
+**Query 2**
+---
+-- Paste Question 2 here
+
+```sql
+-- Paste your SQL code below for Question 2
+```
+
+**Outout 2**
 
 ![Output](output.png)
 
