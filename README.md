@@ -1,8 +1,7 @@
 # DBMS Laboratory Manual Submission
 
-## 📅 Semester: Jan–May 2024  
-## 🎓 Course: Database Management Systems  
-## 🧑‍🏫 Instructor: Your Name  
+## 🎓 Course: 19CS404 Database Management System and its Applications  
+## 🧑‍🏫 Instructor: Ms. G Abinaya  
 
 ### 📝 Instructions for Students
 
