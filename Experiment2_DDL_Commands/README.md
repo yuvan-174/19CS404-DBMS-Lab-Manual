@@ -102,8 +102,8 @@ CREATE TABLE Table_Name (
   col_name3 data_type DEFAULT 'default_value'
 );
 ```
-**Query 1**
----
+**Q1**
+--
 -- Paste Question 1 here
 
 ```sql
@@ -114,16 +114,22 @@ CREATE TABLE Table_Name (
 
 ![Output](output.png)
 
-**Query 2**
+**Q2**
 ---
 -- Paste Question 2 here
-
 ```sql
 -- Paste your SQL code below for Question 2
 ```
-
 **Outout 2**
+![Output](output.png)
 
+**Q3**
+---
+-- Paste Question 3 here
+```sql
+-- Paste your SQL code below for Question 3
+```
+**Outout 3**
 ![Output](output.png)
 
 ## RESULT
