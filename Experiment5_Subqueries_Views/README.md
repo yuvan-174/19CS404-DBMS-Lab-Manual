@@ -1,15 +1,39 @@
-# Experiment5 Subqueries Views
+# Experiment 5: Subqueries and Views
 
-## 🎯 Objective:
-To execute SQL queries based on questions generated randomly from Moodle.
+## AIM
+To study and implement subqueries and views.
 
-## 📝 Instructions:
-1. Attempt the question in Moodle.
-2. Copy the exact question text to `question_generated_by_moodle.txt`.
-3. Write your SQL answer in `answer.sql`.
-4. Save output as a screenshot (`output.png`) or paste it into `output.txt`.
+## THEORY
 
-## 📁 Folder Contents:
-- `question_generated_by_moodle.txt` – Paste your Moodle question here.
-- `answer.sql` – Write your SQL query here.
-- `output.png` or `output.txt` – Save your output here.
+### Subqueries
+A subquery is a query inside another SQL query and is embedded in:
+- WHERE clause
+- HAVING clause
+- FROM clause
+
+**Types:**
+- **Single-row subquery**
+  Sub queries can also return more than one value. Such results should be made use along with the operators in and any.
+- **Multiple-row subquery**
+  Here more than one subquery is used. These multiple sub queries are combined by means of ‘and’ & ‘or’ keywords.
+- **Correlated subquery**
+  A subquery is evaluated once for the entire parent statement whereas a correlated Sub query is evaluated once per row processed by the parent statement.
+
+**Example:**
+```sql
+SELECT * FROM employees
+WHERE salary > (SELECT AVG(salary) FROM employees);
+```
+### Views
+A view is a virtual table based on the result of an SQL SELECT query.
+**Create View:**
+```sql
+CREATE VIEW view_name AS
+SELECT column1, column2 FROM table_name WHERE condition;
+```
+**Drop View:**
+```sql
+DROP VIEW view_name;
+```
+## RESULT
+Thus, the SQL queries to implement subqueries and views have been executed successfully.
