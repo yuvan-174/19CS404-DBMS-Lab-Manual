@@ -13,12 +13,15 @@
    - Complete the question on Moodle.
    - Each experiment folder contains **two Markdown files**
      1. `README.md`
+
         This file contains:
          - 🎯 **Aim**
          - 📚 **Theory**
          - 📝 **Result**
-           You **do not need to edit** this file unless instructed.
-      2. `output.md`
+        
+        You **do not need to edit** this file unless instructed.
+      3. `output.md`
+
          You **must update this file** with your answers and outputs.
          For each of the 10 Moodle-generated questions:
          - Paste the **question**
