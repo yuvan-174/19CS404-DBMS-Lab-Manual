@@ -57,3 +57,63 @@
 **Output:**
 
 ![Output5](output.png)
+
+**Question 6**
+---
+-- Paste Question 6 here
+
+```sql
+-- Paste your SQL code below for Question 6
+```
+
+**Output:**
+
+![Output6](output.png)
+
+**Question 7**
+---
+-- Paste Question 7 here
+
+```sql
+-- Paste your SQL code below for Question 7
+```
+
+**Output:**
+
+![Output7](output.png)
+
+**Question 8**
+---
+-- Paste Question 8 here
+
+```sql
+-- Paste your SQL code below for Question 8
+```
+
+**Output:**
+
+![Output8](output.png)
+
+**Question 9**
+---
+-- Paste Question 9 here
+
+```sql
+-- Paste your SQL code below for Question 9
+```
+
+**Output:**
+
+![Output9](output.png)
+
+**Question 10**
+---
+-- Paste Question 10 here
+
+```sql
+-- Paste your SQL code below for Question 10
+```
+
+**Output:**
+
+![Output10](output.png)
