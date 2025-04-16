@@ -1,4 +1,4 @@
-**Q1**
+**Question 1**
 --
 -- Paste Question 1 here
 
@@ -10,7 +10,7 @@
 
 ![Output1](output.png)
 
-**Q2**
+**Question 2**
 ---
 -- Paste Question 2 here
 
@@ -33,3 +33,27 @@
 **Output:**
 
 ![Output3](output.png)
+
+**Question 4**
+---
+-- Paste Question 4 here
+
+```sql
+-- Paste your SQL code below for Question 4
+```
+
+**Output:**
+
+![Output4](output.png)
+
+**Question 5**
+---
+-- Paste Question 5 here
+
+```sql
+-- Paste your SQL code below for Question 5
+```
+
+**Output:**
+
+![Output5](output.png)
