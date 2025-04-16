@@ -11,20 +11,25 @@
 2. For each experiment:
    SQL queries based on questions generated randomly from Moodle.
    - Complete the question on Moodle.
-   - Add the question as text in `question_generated_by_moodle.txt`.
-   - Add your answer in `answer.sql`.
-   - Save output as a screenshot and paste it into `output.txt`.
+   - Each experiment folder contains **two Markdown files**
+     1. `README.md`
+        This file contains:
+         - 🎯 **Aim**
+         - 📚 **Theory**
+         - 📝 **Result**
+           You **do not need to edit** this file unless instructed.
+      2. `output.md`
+         You **must update this file** with your answers and outputs.
+         For each of the 10 Moodle-generated questions:
+         - Paste the **question**
+         - Write the **SQL query** inside the code block
+         - Paste a **screenshot or terminal output** below it
 3. Commit and push your changes.
-4. Submit your repo link via Moodle or to the instructor.
-
-## 📁 Folder Contents:
-- `question_generated_by_moodle.txt` – Paste your Moodle question here.
-- `answer.sql` – Write your SQL query here.
-- `output.txt` – Save your output here.
+4. Create a pull request to the original repository
 
 ### ✅ Experiments List
 
-| Exp No | Title                          | Moodle Based? |
+| Exp No | Title                          | Module Based? |
 |--------|--------------------------------|---------------|
 | 1      | ER Diagram                     | No            |
 | 2      | DDL Commands                   | Yes           |
