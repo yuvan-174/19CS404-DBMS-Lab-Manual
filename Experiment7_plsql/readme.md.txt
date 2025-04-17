@@ -29,17 +29,37 @@ EXCEPTION: Handles errors or exceptions that occur in the program.
 
 END: Marks the end of the PL/SQL block.
 
-## Program 1: Find the Greatest of Two Numbers
+## 1. Write a PL/SQL program to find the Greatest of Two Numbers
 
 ```sql
 --paste your answer
 ```
 
 Expected Output
+
 Greater number is: 80
 
-## Program 2: Calculate Sum of First N Natural Numbers
+## 2.  Write a PL/SQL program to Calculate Sum of First N Natural Numbers
 
+```sql
+--paste your answer
+```
+
+Expected Output
+
+Sum of first 10 natural numbers is: 55
+
+## 3.  Write a PL/SQL program to generate Fibonacci series 
+
+```sql
+--paste your answer
+```
+
+Expected Output
+
+n = 7 
+
+Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8
 
 ## RESULT
 Thus, the PL/SQL programs using variables, conditionals, and loops were executed successfully.
