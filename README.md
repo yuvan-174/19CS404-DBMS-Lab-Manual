@@ -40,3 +40,7 @@
 | 4      | Aggregate, GROUP BY, HAVING   | Yes           |
 | 5      | Subqueries and Views          | Yes           |
 | 6      | Joins                         | Yes           |
+| 7      | Pl/sql                        | No            |
+| 8      | Procedures, Functions         | No            |
+| 9      | Cursors, Exception Handling   | No            |
+| 10     | Triggers                      | No            |
