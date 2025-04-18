@@ -5,11 +5,12 @@ To write and execute PL/SQL programs using cursors and exception handling to man
 
 ## THEORY
 
-In PL/SQL, cursors are used to handle query result sets row-by-row. There are two types of cursors:
+In PL/SQL, cursors are used to handle query result sets row-by-row. 
 
-Implicit Cursors: Automatically created by PL/SQL for single-row queries.
+There are two types of cursors:
 
-Explicit Cursors: Declared and controlled by the programmer for multi-row queries.
+- Implicit Cursors: Automatically created by PL/SQL for single-row queries.
+- Explicit Cursors: Declared and controlled by the programmer for multi-row queries.
 
 Types of Explicit Cursors:
 
@@ -36,25 +37,19 @@ END;
 
 ### Basic Components of PL/SQL Block:
 
-DECLARE: Section to declare variables and constants.
-
-BEGIN: The execution section that contains PL/SQL statements.
-
-EXCEPTION: Handles errors or exceptions that occur in the program.
-
-END: Marks the end of the PL/SQL block.
+- DECLARE: Section to declare variables and constants.
+- BEGIN: The execution section that contains PL/SQL statements.
+- EXCEPTION: Handles errors or exceptions that occur in the program.
+- END: Marks the end of the PL/SQL block.
 
 **Exception Handling**
 
 PL/SQL provides a robust mechanism to handle runtime errors using exception handling blocks. When an error occurs during execution, control is passed to the EXCEPTION section, where specific or general errors can be handled gracefully.
 
-Components of Exception Handling:
-
-Predefined Exceptions: Automatically raised by PL/SQL for common errors (e.g., NO_DATA_FOUND, TOO_MANY_ROWS, ZERO_DIVIDE).
-
-User-defined Exceptions: Declared explicitly in the declaration section using the EXCEPTION keyword.
-
-WHEN OTHERS: A generic handler for all exceptions not handled explicitly.
+### Components of Exception Handling:
+- Predefined Exceptions: Automatically raised by PL/SQL for common errors (e.g., NO_DATA_FOUND, TOO_MANY_ROWS, ZERO_DIVIDE).
+- User-defined Exceptions: Declared explicitly in the declaration section using the EXCEPTION keyword.
+- WHEN OTHERS: A generic handler for all exceptions not handled explicitly.
 
 ```sql
 BEGIN
