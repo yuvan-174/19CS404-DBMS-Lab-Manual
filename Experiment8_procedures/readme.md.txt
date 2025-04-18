@@ -52,9 +52,63 @@ END: Marks the end of the PL/SQL block.
 
 Expected Output
 
+Alice - Manager
+
+Bob - Developer
+
+Charlie - Analyst
 
 ## Program 2: Create a parameterized cursor to display employees whose salary is between a given minimum and maximum. Use parameters to pass the salary range.
 
+```sql
+--paste your answer
+```
+
+Expected Output
+
+Bob earns 60000
+
+Charlie earns 70000
+
+## 3.  Write a PL/SQL program to print the names and department numbers of all employees using a cursor FOR loop.
+
+```sql
+--paste your answer
+```
+
+Expected Output
+
+Alice - Dept: 10
+
+Bob - Dept: 20
+
+Charlie - Dept: 10
+
+## 4. Use a cursor to fetch complete rows from the departments table and print department name and manager ID using a %ROWTYPE record.
+
+```sql
+--paste your answer
+```
+
+Expected Output
+
+Department: HR, Manager ID: 1001
+
+Department: IT, Manager ID: 1002
+
+Department: Finance, Manager ID: 1003
+
+## 5. Write a PL/SQL program that uses a cursor with the FOR UPDATE clause to increase the salary of employees in a specific department by 10%. 
+
+```sql
+--paste your answer
+```
+
+Expected Output
+
+Salary updated for Employee ID: 1
+
+Salary updated for Employee ID: 3
 
 ## RESULT
 Thus, the PL/SQL programs using variables, conditionals, and loops were executed successfully.
