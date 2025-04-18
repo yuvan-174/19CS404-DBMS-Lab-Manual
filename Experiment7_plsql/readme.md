@@ -20,14 +20,10 @@ END;
 ```
 
 ### Basic Components of PL/SQL Block:
-
-DECLARE: Section to declare variables and constants.
-
-BEGIN: The execution section that contains PL/SQL statements.
-
-EXCEPTION: Handles errors or exceptions that occur in the program.
-
-END: Marks the end of the PL/SQL block.
+- DECLARE: Section to declare variables and constants.
+- BEGIN: The execution section that contains PL/SQL statements.
+- EXCEPTION: Handles errors or exceptions that occur in the program.
+- END: Marks the end of the PL/SQL block.
 
 # PL/SQL Programs – Steps and Expected Output
 
