@@ -67,4 +67,6 @@ University / Hospital (choose one)
 - Explain how you modeled prerequisites or billing.
 
 ## Design Choices:
-Brief explanation of why you chose certain entities, relationships, and assumptions.
+Brief explanation of why you chose certain entities, relationships, and assumptions
+
+## RESULT
