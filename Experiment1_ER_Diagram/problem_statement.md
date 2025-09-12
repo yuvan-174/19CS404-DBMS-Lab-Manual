@@ -123,6 +123,7 @@ A popular restaurant wants to manage reservations, orders, and billing.
 
 ### ER Diagram:
 
+<img width="938" height="801" alt="image" src="https://github.com/user-attachments/assets/7d7dab17-2955-4646-aff2-23f7ec8dabe7" />
 
 ### Entities and Attributes
 
