@@ -296,7 +296,8 @@ FROM Archived_students;
 
 <img width="1289" height="277" alt="image" src="https://github.com/user-attachments/assets/da86073a-dbb3-439c-a402-6fd9fd9bd495" />
 
-
+## Screenshot of Module 1 SEB Completion Grades
+<img width="1898" height="244" alt="image" src="https://github.com/user-attachments/assets/f9e839f1-008f-4374-82ec-7a2d5e267b1a" />
 
 ## RESULT
 Thus, the SQL queries to implement different types of constraints and DDL commands have been executed successfully.
