@@ -188,11 +188,12 @@ CREATE TABLE item (
 ---
 In the Student_details table, insert a student record where some fields are NULL, another record where all fields are filled without any NULL values, and a third record where some fields are filled, and others are left as NULL.
 
-RollNo      Name            Gender      Subject      MARKS
-----------  ------------    ----------  ----------   ----------
-205         Olivia Green    F
-207         Liam Smith      M           Mathematics  85
-208         Sophia Johnson  F           Science
+| RollNo | Name           | Gender | Subject     | MARKS |
+| ------ | -------------- | ------ | ----------- | ----- |
+| 205    | Olivia Green   | F      |             |       |
+| 207    | Liam Smith     | M      | Mathematics | 85    |
+| 208    | Sophia Johnson | F      | Science     |       |
+
 
 ```sql
 INSERT INTO Student_details(RollNo, Name, Gender ) VALUES(205,'Olivia Green','F');
@@ -275,13 +276,14 @@ CREATE TABLE Products(
 ---
 Insert all students from Archived_students table into the Student_details table.
 
-cid         name        type        notnull     dflt_value  pk
-----------  ----------  ----------  ----------  ----------  ----------
-0           RollNo      INT           0                       1
-1           Name        VARCHAR(100)  0                       0
-2           Gender      VARCHAR(10)   0                       0
-3           Subject     VARCHAR(50)   0                       0
-4           MARKS       INT           0                       0
+| cid | name    | type         | notnull | dflt_value | pk |
+| --- | ------- | ------------ | ------- | ---------- | -- |
+| 0   | RollNo  | INT          | 0       |            | 1  |
+| 1   | Name    | VARCHAR(100) | 0       |            | 0  |
+| 2   | Gender  | VARCHAR(10)  | 0       |            | 0  |
+| 3   | Subject | VARCHAR(50)  | 0       |            | 0  |
+| 4   | MARKS   | INT          | 0       |            | 0  |
+
 
 ```sql
 
