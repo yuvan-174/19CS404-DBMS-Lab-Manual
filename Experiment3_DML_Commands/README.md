@@ -284,6 +284,7 @@ FROM Calculations;
 ```
 
 **Output:**
+
 <img width="814" height="521" alt="image" src="https://github.com/user-attachments/assets/f0478b4e-29aa-42f1-bd6e-84e975f6a0fa" />
 
 
