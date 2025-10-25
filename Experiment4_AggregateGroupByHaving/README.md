@@ -51,6 +51,7 @@ GROUP BY PatientID;
 ```
 
 **Output:**
+
 <img width="651" height="802" alt="image" src="https://github.com/user-attachments/assets/ee2565cb-bbd1-4626-8a57-688c6cadfebd" />
 
 
@@ -73,6 +74,7 @@ GROUP BY Gender;
 ```
 
 **Output:**
+
 <img width="611" height="428" alt="image" src="https://github.com/user-attachments/assets/b547d6fa-9752-483f-a55f-aba2a6f188a5" />
 
 
@@ -96,6 +98,7 @@ GROUP BY InsuranceCompany;
 ```
 
 **Output:**
+
 <img width="884" height="803" alt="image" src="https://github.com/user-attachments/assets/3a9b2cc8-fb30-4ce2-9eb4-9c9251052264" />
 
 
@@ -132,6 +135,7 @@ WHERE city = 'Chennai';
 ```
 
 **Output:**
+
 <img width="451" height="374" alt="image" src="https://github.com/user-attachments/assets/4a1d7529-fb18-46d3-abe9-7a9a1ef4623f" />
 
 
@@ -190,6 +194,7 @@ HAVING MAX(income) > 2000000;
 ```
 
 **Output:**
+
 <img width="569" height="426" alt="image" src="https://github.com/user-attachments/assets/1727fc56-c74a-4968-94de-ac2c7d623712" />
 
 
