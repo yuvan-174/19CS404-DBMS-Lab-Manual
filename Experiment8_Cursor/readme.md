@@ -91,7 +91,7 @@ BEGIN
       FETCH emp_cursor INTO v_emp_name, v_designation;
       EXIT WHEN emp_cursor%NOTFOUND;
 
-      v_found := TRUE;  -- At least one record fetched
+      v_found := TRUE;  
       DBMS_OUTPUT.PUT_LINE('Name: ' || v_emp_name || ', Designation: ' || v_designation);
    END LOOP;
 
