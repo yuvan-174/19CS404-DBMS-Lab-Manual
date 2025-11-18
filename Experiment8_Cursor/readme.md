@@ -74,15 +74,14 @@ END;
 ## PROGRAM
 ```sql
 DECLARE
-   -- Simple cursor declaration
+
    CURSOR emp_cursor IS
       SELECT emp_name, designation FROM employees;
 
-   -- Variables to hold fetched data
    v_emp_name    employees.emp_name%TYPE;
    v_designation employees.designation%TYPE;
 
-   -- Flag to check if data was fetched
+
    v_found BOOLEAN := FALSE;
 
 BEGIN
@@ -98,7 +97,7 @@ BEGIN
 
    CLOSE emp_cursor;
 
-   -- Raise exception if no data was fetched
+
    IF NOT v_found THEN
       RAISE NO_DATA_FOUND;
    END IF;
@@ -127,22 +126,20 @@ END;
 ## PROGRAM
 ```sql
 DECLARE
-   -- Input salary range
+
    v_min_salary NUMBER := 55000;
    v_max_salary NUMBER := 80000;
 
-   -- Parameterized cursor
+
    CURSOR emp_cursor(p_min NUMBER, p_max NUMBER) IS
       SELECT emp_name, designation, salary
       FROM employees
       WHERE salary BETWEEN p_min AND p_max;
 
-   -- Variables to hold fetched data
    v_name        employees.emp_name%TYPE;
    v_designation employees.designation%TYPE;
    v_salary      employees.salary%TYPE;
 
-   -- Flag to detect if any rows are found
    v_found BOOLEAN := FALSE;
 
 BEGIN
@@ -187,10 +184,10 @@ END;
 ## PROGRAM
 ```sql
 DECLARE
-   -- Flag to check if any row is found
+
    v_found BOOLEAN := FALSE;
 BEGIN
-   -- Cursor FOR loop directly iterates over result set
+  
    FOR emp_rec IN (
       SELECT emp_name, dept_no FROM employees
    ) LOOP
@@ -198,7 +195,7 @@ BEGIN
       DBMS_OUTPUT.PUT_LINE('Name: ' || emp_rec.emp_name || ', Dept No: ' || emp_rec.dept_no);
    END LOOP;
 
-   -- If no rows were fetched, raise NO_DATA_FOUND manually
+
    IF NOT v_found THEN
       RAISE NO_DATA_FOUND;
    END IF;
@@ -228,14 +225,12 @@ END;
 ## PROGRAM
 ```sql
 DECLARE
-   -- Cursor to fetch all records
+
    CURSOR emp_cursor IS
       SELECT * FROM employees;
 
-   -- Record variable using %ROWTYPE
    emp_record employees%ROWTYPE;
 
-   -- Flag to check if data was found
    v_found BOOLEAN := FALSE;
 
 BEGIN
@@ -257,7 +252,7 @@ BEGIN
 
    CLOSE emp_cursor;
 
-   -- Check if no data was found
+
    IF NOT v_found THEN
       RAISE NO_DATA_FOUND;
    END IF;
@@ -286,12 +281,11 @@ END;
 ```sql
 
 DECLARE
-   -- Target department and increment
+
    v_dept_no   NUMBER := 10;
    v_increment NUMBER := 1000;
    v_found     BOOLEAN := FALSE;
 
-   -- Cursor to select employees for update
    CURSOR emp_cursor IS
       SELECT emp_id, salary
       FROM employees
@@ -302,7 +296,7 @@ BEGIN
    FOR emp_rec IN emp_cursor LOOP
       v_found := TRUE;
 
-      -- Update salary
+
       UPDATE employees
       SET salary = emp_rec.salary + v_increment
       WHERE emp_id = emp_rec.emp_id;
